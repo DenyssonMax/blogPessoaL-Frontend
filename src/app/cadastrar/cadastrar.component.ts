@@ -26,11 +26,11 @@ export class CadastrarComponent implements OnInit {
   }
 
   confirmSenha(event: any){
-    this.confirmarSenha = event.targe.value
+    this.confirmarSenha = event.target.value
   }
 
   tipoUser(event: any){
-    this.tipoUsuario = event.targe.value
+    this.tipoUsuario = event.target.value
   }
 
   cadastrar(){
@@ -49,8 +49,6 @@ export class CadastrarComponent implements OnInit {
     }
 
   }
-
-
 }
 
 
