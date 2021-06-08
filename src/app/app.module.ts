@@ -10,7 +10,11 @@ import { RodapeComponent } from './rodape/rodape.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { InicioComponent } from './inicio/inicio.component';
-import { HashLocationStrategy, LocationStrategy  } from '@angular/common'
+import { HashLocationStrategy, LocationStrategy  } from '@angular/common';
+import { TemaComponent } from './tema/tema.component';
+import { EditComponent } from './edit/edit.component';
+import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component'
 
 
 @NgModule({
@@ -20,7 +24,11 @@ import { HashLocationStrategy, LocationStrategy  } from '@angular/common'
     RodapeComponent,
     EntrarComponent,
     CadastrarComponent,
-    InicioComponent
+    InicioComponent,
+    TemaComponent,
+    EditComponent,
+    TemaEditComponent,
+    TemaDeleteComponent
   ],
   imports: [
     BrowserModule,
